@@ -1,0 +1,25 @@
+Script de mineração- Shiba
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.29/lolMiner_v1.29_Lin64.tar.gz
+
+tar -xf lolMiner_v1.29_Lin64.tar.gz
+
+cd 1.29
+
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user Shib:0xb5b72b0a8445d559bc9d21e5e032433a0485ed00.Mine04 --ethstratum ETHPROXY
+
+
+-------------------------------------------------------------------------------------------------------------------------
+
+Script de inatividade: 
+
+function ClickConnect(){
+    try{
+        document.querySelecor("colab-connect-button").click()
+        console.log("Executando script...")
+    }
+    catch(err){
+        console.log(err)
+        console.log("Erro...")
+    }
+}
